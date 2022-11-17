@@ -1,0 +1,65 @@
+<html lang="en">
+    <head>
+        <title>DNS</title>
+        <link rel="stylesheet" href="DNS.css">
+    </head>
+    
+
+<body bgcolor="white">
+<header>
+    <section class="container">
+
+        <div class="menu-section">
+            <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="HTTP.html">HTTP </a>
+                    </li>
+                    <li>
+                        <a href="HTTPS.html">HTTPS</a>
+                    </li>
+                    <li>
+                        <a href="SSH.html">SSH</a>
+                    </li>
+                    <li>
+                        <a href="DNS.html">DNS</a>
+                    </li>
+                    <li>
+                        <a href="FTP.HTML">FTP</a>
+                    </li>
+                    <li>
+                        <a href="TELNET.HTML">TELNET</a>
+                    </li>
+                    <li>
+                        <a href="DHCP.html">DHCP</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</header>
+                             <center><h1>O que é o DNS?</h1></center>
+<br>
+ <p><h2>O nome DNS significa Domain Name System, ou sistema de nomes de domínios, e contém o registro de todos os domínios da internet. A sua função não é hospedar sites ou aplicações que criamos, mas sim permitir que as requisições cheguem aos locais corretos.
+
+    Um servidor DNS é feito única e exclusivamente para a tradução de domínios para endereços de IP, então vamos entender como os servidores DNS podem realizar a sua tarefa e como são passadas as requisições para ele.</h2></p>
+<br>
+
+<center><img src="dns-domain-name-system-server-260nw-463024261.webp"></center>
+<br>
+                             <center><h1>Para que serve o DNS na rede e como ele funciona?</h1></center>
+<br>
+<p><h2>Quando escrevemos uma URL no navegador, como alura.com.br, o nosso computador não sabe como se conectar com o site da Alura, mas ele conhece alguém que sabe, o servidor DNS, então ele manda uma requisição pedindo para o DNS responder com o endereço IP do site.
+
+    Agora, quando essa requisição chegar no servidor DNS, ele tem que agir rápido. Então, para ser o mais rápido possível, eles mantêm um cache, ou uma cópia da informação, em memória RAM e vão primeiro olhar o cache para ver se tem uma resposta.
+    
+    Se não encontrar, têm que fazer uma requisição para um Servidor raiz, um servidor parecido com o DNS, que guarda informações de outros servidores e que irá responder com um endereço de um servidor de domínio de nível superior, ou servidor TLD.
+    
+    O servidor TLD é o servidor responsável por guardar informações da última parte da ULR, o “.com”, “.net”, “.org” e assim por diante, sendo um servidor para cada, e a tarefa dele é responder a última requisição com o endereço do servidor DNS autoritativo.
+    
+    Por último, o servidor DNS autoritativo, que conhece o endereço de onde o site está hospedado, responde o servidor DNS com o endereço, e assim o DNS pode te responder com o endereço IP.</h2></p>
